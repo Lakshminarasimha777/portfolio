@@ -1,0 +1,160 @@
+body{
+font-family:Arial;
+margin:0;
+background:linear-gradient(120deg,#84fab0,#8fd3f4);
+}
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:#222;
+padding:15px 40px;
+color:white;
+}
+
+.navbar ul{
+display:flex;
+list-style:none;
+}
+
+.navbar ul li{
+margin:0 15px;
+}
+
+.navbar ul li a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+
+.home{
+text-align:center;
+padding:60px;
+color:white;
+}
+
+.profile{
+width:150px;
+border-radius:50%;
+border:5px solid white;
+}
+
+
+
+
+.btn{
+background-color:#007bff;
+color:white;
+padding:10px 20px;
+text-decoration:none;
+border-radius:6px;
+font-size:16px;
+transition:0.3s;
+}
+
+.btn:hover{
+background-color:#0056b3;
+transform:scale(1.05);
+}
+
+section{
+padding:60px;
+text-align:center;
+background:white;
+margin:20px;
+border-radius:10px;
+}
+
+.skills{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+}
+
+.skill{
+background:#4CAF50;
+color:white;
+padding:10px 20px;
+border-radius:20px;
+}
+
+.projects{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+
+form{
+display:flex;
+flex-direction:column;
+width:300px;
+margin:auto;
+gap:10px;
+}
+
+input,textarea{
+padding:10px;
+border-radius:5px;
+border:1px solid gray;
+}
+
+button{
+background:#007BFF;
+color:white;
+border:none;
+padding:10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+.profile{
+width:180px;
+height:180px;
+border-radius:50%;
+object-fit:cover;
+border:5px solid white;
+margin-top:20px;
+box-shadow:0 0 25px #000;
+transition:0.4s;
+}
+
+.profile:hover{
+transform:scale(1.1);
+box-shadow:0 0 30px #ff9800;
+}
+
+.card-link {
+  text-decoration: none; /* Remove underline */
+  color: inherit;        /* Keep text color */
+  display: block;        /* Make whole card clickable */
+  margin-bottom: 20px;   /* Space between cards */
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid greenyellow;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color:#fff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: greenyellow 0px 4px 15px 0px;
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #333;
+}
